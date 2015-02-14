@@ -1,9 +1,19 @@
 body {
 	font-family: Lato, sans-serif;
+	color: #1abc9c;
+	background-color: #1abc9c;
 }
 
 a.navbar-brand {
 	font-weight: bold;
 	letter-spacing: 2px;
-	color: #34495e;
+	color: #1abc9c;
+}
+
+.green {
+	color: #1abc9c;
+}
+
+.top-buffer {
+	margin-top:10%;
 }

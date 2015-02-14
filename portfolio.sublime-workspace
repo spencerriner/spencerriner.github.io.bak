@@ -1,0 +1,333 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"list",
+				"list-style-position"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"todo",
+				"todoDate"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"task",
+				"taskId"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"hea",
+				"headercell"
+			],
+			[
+				"add",
+				"addevent"
+			],
+			[
+				"spac",
+				"letter-spacing"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"a",
+				"vertical-align"
+			],
+			[
+				"t",
+				"text-top"
+			],
+			[
+				"op",
+				"option	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1595,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/spencerriner/Documents/Portfolio/css/styles.css",
+		"/Users/spencerriner/Documents/Portfolio/contact.html",
+		"/Users/spencerriner/Documents/Portfolio/resume.html",
+		"/Users/spencerriner/Documents/Portfolio/about.html",
+		"/Users/spencerriner/Documents/Portfolio/index.html",
+		"/Users/spencerriner/Documents/Techskine/index.html",
+		"/Users/spencerriner/Documents/Techskine/index2.html",
+		"/Users/spencerriner/Documents/Danny HTML/banner.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 266.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
