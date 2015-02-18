@@ -1,7 +1,14 @@
 body {
 	font-family: Lato, sans-serif;
-	color: #1abc9c;
 	background-color: #1abc9c;
+}
+
+h1 {
+	color: #2c3e50;
+}
+
+img {
+
 }
 
 a.navbar-brand {
@@ -15,5 +22,15 @@ a.navbar-brand {
 }
 
 .top-buffer {
-	margin-top:10%;
+	margin-top: 5%;
+	padding: 5%
+}
+
+#proj-1 {
+	margin-top: 10%;
+}
+
+.proj {
+	padding: 10px 0;
+	background-color: white;
 }
