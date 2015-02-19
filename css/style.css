@@ -7,7 +7,8 @@ h1 {
 	color: #2c3e50;
 }
 
-img {
+img.proj-pic {
+	margin: 5px;
 
 }
 
@@ -26,11 +27,14 @@ a.navbar-brand {
 	padding: 5%
 }
 
-#proj-1 {
-	margin-top: 10%;
-}
-
 .proj {
 	padding: 10px 0;
 	background-color: white;
+	margin: 20px;
+}
+
+.index-content {
+	padding: 10px 0;
+	background-color: white;
+	margin: 20px;
 }
