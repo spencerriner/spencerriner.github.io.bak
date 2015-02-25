@@ -4,20 +4,40 @@
 		"selected_items":
 		[
 			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
 				"margin",
-				"margin-top"
+				"margin"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"font-",
+				"font-weight"
 			],
 			[
 				"padd",
-				"padding-top"
+				"padding"
+			],
+			[
+				"text",
+				"text-transform"
 			],
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"borde",
@@ -36,16 +56,8 @@
 				"background"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"padding",
 				"padding"
-			],
-			[
-				"font-",
-				"font-family"
 			],
 			[
 				"fon",
@@ -122,15 +134,43 @@
 			[
 				"t",
 				"text-top"
-			],
-			[
-				"op",
-				"option	Tag"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/spencerriner/Documents/GitHub/Techskine/index.html",
+			"settings":
+			{
+				"buffer_size": 3961,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/spencerriner/Documents/GitHub/Techskine/js/script.js",
+			"settings":
+			{
+				"buffer_size": 177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/spencerriner/Documents/GitHub/Techskine/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/spencerriner/Documents/ex1/firstProgram.java",
+			"settings":
+			{
+				"buffer_size": 258,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -164,6 +204,19 @@
 	},
 	"file_history":
 	[
+		"/Users/spencerriner/Documents/guitarrant.txt",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/resume.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/contact.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/about.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/css/style.css",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/projects.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/index.html",
+		"/Users/spencerriner/Documents/GitHub/Techskine/css/style.css",
+		"/Users/spencerriner/Documents/GitHub/Techskine/index.html",
+		"/Users/spencerriner/Documents/ASSM/nasm/skeleton.asm",
+		"/Users/spencerriner/Documents/ASSM/1/pq2.asm",
+		"/Users/spencerriner/Documents/UHCL Spring 2015/CSCI 3331 - Comp Org & Assembly Language/nasm/skeleton.asm",
+		"/Users/spencerriner/Documents/UHCL Spring 2015/CSCI 3331 - Comp Org & Assembly Language/nasm/IO.OBJ",
 		"/Users/spencerriner/Documents/Portfolio/index.html",
 		"/Users/spencerriner/Documents/Portfolio/css/styles.css",
 		"/Users/spencerriner/Documents/Portfolio/contact.html",
@@ -189,6 +242,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"c1",
+			"div",
+			"	</",
 			"class",
 			"div",
 			"h1",
@@ -210,8 +266,115 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/spencerriner/Documents/GitHub/Techskine/index.html",
+					"settings":
+					{
+						"buffer_size": 3961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2454,
+								2454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 897.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/spencerriner/Documents/GitHub/Techskine/js/script.js",
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/spencerriner/Documents/GitHub/Techskine/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								848,
+								848
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/spencerriner/Documents/ex1/firstProgram.java",
+					"settings":
+					{
+						"buffer_size": 258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -271,6 +434,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true
 }
