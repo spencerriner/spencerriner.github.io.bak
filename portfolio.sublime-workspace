@@ -163,7 +163,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3118,
+				"buffer_size": 3438,
 				"line_ending": "Unix"
 			}
 		},
@@ -171,7 +171,7 @@
 			"file": "projects.html",
 			"settings":
 			{
-				"buffer_size": 4244,
+				"buffer_size": 4246,
 				"line_ending": "Unix"
 			}
 		},
@@ -288,7 +288,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -337,7 +337,7 @@
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -351,15 +351,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3118,
+						"buffer_size": 3438,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2097,
-								1320
+								2843,
+								2843
 							]
 						],
 						"settings":
@@ -367,7 +367,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 201.0,
+						"translation.y": 572.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -377,15 +377,15 @@
 					"file": "projects.html",
 					"settings":
 					{
-						"buffer_size": 4244,
+						"buffer_size": 4246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2160,
-								2160
+								263,
+								263
 							]
 						],
 						"settings":
@@ -393,7 +393,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 175.0,
+						"translation.y": 397.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -445,7 +445,7 @@
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -513,6 +513,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 100.0,
+	"side_bar_width": 226.0,
 	"status_bar_visible": true
 }
