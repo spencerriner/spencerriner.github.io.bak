@@ -29,8 +29,8 @@ h3 {
 
 p  {
 	font-family: 'Open Sans', sans-serif;
-	width: 75%;
 	line-height: 1.618em;
+	padding-left: 10px;
 }
 
 li {
