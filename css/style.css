@@ -60,6 +60,7 @@ a:hover {
 	margin-bottom: 0px;
 	background-color: #00796B;
 	background-image: url("http://i.imgur.com/Hp2N30m.png");
+	background-attachment: fixed;
 	color: #FFFFFF;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -83,24 +84,28 @@ a:hover {
 
 .floral {
 	background-image: url("http://i.imgur.com/wY6rjns.png");
+	background-attachment: fixed;
 	background-repeat: repeat;
 	height: 300px;
 }
 
 .leaves {
 	background-image: url("http://i.imgur.com/1rOlSuB.png");
+	background-attachment: fixed;
 	background-repeat: repeat;
 	height: 200px;
 }
 
 .paisley {
 	background-image: url("http://i.imgur.com/pxPrwtm.png");
+	background-attachment: fixed;
 	background-repeat: repeat;
 	height: 200px;
 }
 
 .diamond {
 	background-image: url("http://i.imgur.com/pGEQnrr.png");
+	background-attachment: fixed;
 	background-repeat: repeat;
 	height: 200px;
 }
