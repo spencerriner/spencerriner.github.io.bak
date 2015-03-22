@@ -7,79 +7,149 @@ Accent (Lt. Green):   #8BC34A;
 */
 
 body {
-	background-color: #B2DFDB;
+	background-color: #fff;
 	color: #000;
 	font-size: 1.618em;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Patua One', cursive;
 }
 
 h1 {
+	color: #ffffcc;
 	font-size: 6.854em;
 	font-weight: bold;
-	text-shadow: 5px -4px 0px rgba(0, 121, 107, 1);
+    text-shadow: -4px 3px 0 #dddd99, -14px 7px 0 #223333;
+	padding-top: 1.618em;
+	padding-bottom: 1em;
 }
 
 h2 {
 	font-size: 4.236em;
+	color: #ffffcc;
+	font-weight: bold;
+    text-shadow: -4px 3px 0 #dddd99, -14px 7px 0 #223333;
 }
 
 h3 {
 	font-size: 2.618em;
 }
 
-p  {
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.618em;
-	padding-left: 10px;
+.h3 {
+	font-size: 2.618em;
+	font-family: 'Patua One', cursive;
 }
 
-li {
-	font-family: "open sans", sans-serif;
+p {
 	line-height: 1.618em;
+	margin-top: 1.618em;
+	margin-bottom: 1.618em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	max-width: 800px;
+	background-color: #fff;
+	opacity: 0.70;
+}
+
+ul {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	max-width: 800px;
+	background-color: #fff;
+	opacity: 0.85;
 }
 
 a {
-	color: #00796B;
+	color: #113344;
 	text-decoration: none;
-
 }
 
 a:hover {
-	color: #00796B;
+	color: #113344;
 	text-decoration: underline;
+	
 }
 
-.content {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background-color: #8BC34A;
-}
-
-#title {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	background-color: #00796B;
-	background-image: url("http://i.imgur.com/Hp2N30m.png");
-	background-attachment: fixed;
-	color: #FFFFFF;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.lcon {
-	background-color: #009688;
-	color: #fff;
-	padding-bottom: 50px;
+#head {
+	background: url(http://i.imgur.com/zfxVJBa.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 
 }
 
-.rcon {
-	background-color: #FFF;
+.divider {
+	background-color: #223333;
+	height: 10px;
+}
+
+.bar {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #fff;
+	opacity: .85;
+
+}
+
+#aboutbar {
+	background: url(http://i.imgur.com/WHAxDcm.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#projbar {
+	background-color: #223333;
+	text-shadow: -4px 3px 0 #113344, -14px 7px 0 #dddd99;
+}
+
+#contactbar {
+	background: url(http://i.imgur.com/iRnlULk.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.box {
+
+}
+
+#aboutbox {
+	background: url(http://i.imgur.com/WHAxDcm.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+#projbox {
+	background-color: #113344;
+}
+
+#contactbox {
+	background: url(http://i.imgur.com/iRnlULk.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#credit {
+	background: url(http://i.imgur.com/iRnlULk.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	color: #000;
-	padding-top: 20px;
-	padding-bottom: 20px;
-
-
+	padding-top: 500px;
 }
 
 .floral {
@@ -110,9 +180,5 @@ a:hover {
 	height: 200px;
 }
 
-.imgbar {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
 
 
