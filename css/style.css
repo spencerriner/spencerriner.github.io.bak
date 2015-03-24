@@ -23,7 +23,7 @@ h1 {
 	font-weight: bold;
     text-shadow: -4px 3px 0 #dddd99, -14px 7px 0 #223333;
 	padding-top: 1.618em;
-	padding-bottom: 1em;
+	padding-bottom: 1.618em;
 }
 
 h2 {
@@ -65,7 +65,7 @@ ul {
 
 a {
 	color: #113344;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
@@ -89,8 +89,8 @@ a:hover {
 }
 
 .bar {
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 2.618em;
+	padding-bottom: 2.618em;
 	background-color: #fff;
 	opacity: .85;
 
