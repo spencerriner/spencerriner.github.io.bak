@@ -1,39 +1,30 @@
+/* Dull Colors */
+@DNavy: 	#223333;
+@DKhaki: 	#999977;
+@DYellow: 	#DDDD99;
+@DCream: 	#FFFFDD;
+@DGold: 	#CCAA77;
 
+/* Vibrant Colors */
+@VNavy: 	#113344;
+@VKhaki: 	#AAAA66;
+@VYellow: 	#FFEE77;
+@VCream: 	#FFFFCC;
+@VGold: 	#EEBB55;
+
+/* Functions */
+
+.shadow(@c1, @c2) {
+text-shadow: -4px 3px 0 @c1, -14px 7px 0 @c2;	
+};
+
+/* Global */
 
 body {
-	background-color: #fff;
-	color: #000;
+	background-color: #FFF;
+	color: @DNavy;
 	font-size: 1.618em;
 	font-family: 'PT Serif', serif;
-}
-
-h1, h2, h3, h4 {
-	font-family: 'Patua One', cursive;
-}
-
-h1 {
-	color: #ffffcc;
-	font-size: 6.854em;
-	font-weight: bold;
-    text-shadow: -4px 3px 0 #dddd99, -14px 7px 0 #223333;
-	padding-top: 1.618em;
-	padding-bottom: 1.618em;
-}
-
-h2 {
-	font-size: 4.236em;
-	color: #ffffcc;
-	font-weight: bold;
-    text-shadow: -4px 3px 0 #dddd99, -14px 7px 0 #223333;
-}
-
-h3 {
-	font-size: 2.618em;
-}
-
-.h3 {
-	font-size: 2.618em;
-	font-family: 'Patua One', cursive;
 }
 
 p {
@@ -48,46 +39,59 @@ p {
 	opacity: .85;
 }
 
-ul {
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
-	max-width: 800px;
-	background-color: #fff;
-	opacity: 0.85;
-}
-
 a {
-	color: #113344;
+	color: @VNavy;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #113344;
-	text-decoration: underline;
-	
+	color: @VNavy;
+	text-decoration: none;
 }
 
-#head {
-	background: url(http://i.imgur.com/iRnlULk.jpg) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-
-}
+/* Utility */
 
 .divider {
-	background-color: #223333;
+	background-color: @DNavy;
 	height: 10px;
 }
+
+/* Headers */
+
+h1, h2, h3, h4 {
+	font-family: 'Patua One', cursive;
+	color: @VCream;
+	.shadow(@DYellow, @DNavy);
+	font-weight: bold;
+}
+h1 {
+	font-size: 6.854em;
+	padding-top: 1.618em;
+	padding-bottom: 1.618em;
+}
+h2 {
+	font-size: 4.236em;
+	
+}
+h3 {
+	font-size: 2.618em;
+}
+
+/* Page Headers */
 
 .bar {
 	padding-top: 2.618em;
 	padding-bottom: 2.618em;
 	background-color: #fff;
 	opacity: .85;
+}
 
+#head {
+	background: url(http://i.imgur.com/iRnlULk.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #aboutbar {
@@ -99,8 +103,7 @@ a:hover {
 }
 
 #projbar {
-	background-color: #223333;
-	text-shadow: -4px 3px 0 #113344, -14px 7px 0 #dddd99;
+	background-color: @DNavy;
 }
 
 #contactbar {
@@ -110,6 +113,8 @@ a:hover {
   	-o-background-size: cover;
   	background-size: cover;
 }
+
+/* Page Content */
 
 .box {
 
@@ -121,7 +126,6 @@ a:hover {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-
 }
 
 #projbox {
@@ -134,6 +138,10 @@ a:hover {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	padding-top: 40px;
+  	a {
+  		text-decoration: none;
+  	}
 }
 
 #credit {
@@ -146,33 +154,5 @@ a:hover {
 	padding-top: 500px;
 }
 
-.floral {
-	background-image: url("http://i.imgur.com/wY6rjns.png");
-	background-attachment: fixed;
-	background-repeat: repeat;
-	height: 300px;
-}
-
-.leaves {
-	background-image: url("http://i.imgur.com/1rOlSuB.png");
-	background-attachment: fixed;
-	background-repeat: repeat;
-	height: 200px;
-}
-
-.paisley {
-	background-image: url("http://i.imgur.com/pxPrwtm.png");
-	background-attachment: fixed;
-	background-repeat: repeat;
-	height: 200px;
-}
-
-.diamond {
-	background-image: url("http://i.imgur.com/pGEQnrr.png");
-	background-attachment: fixed;
-	background-repeat: repeat;
-	height: 200px;
-}
-
-
+/* Testing */
 

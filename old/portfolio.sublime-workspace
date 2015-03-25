@@ -155,7 +155,7 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 3655,
+				"buffer_size": 3755,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,7 +163,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3438,
+				"buffer_size": 3538,
 				"line_ending": "Unix"
 			}
 		},
@@ -171,15 +171,7 @@
 			"file": "projects.html",
 			"settings":
 			{
-				"buffer_size": 4246,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "contact.html",
-			"settings":
-			{
-				"buffer_size": 2164,
+				"buffer_size": 4346,
 				"line_ending": "Unix"
 			}
 		},
@@ -187,7 +179,7 @@
 			"file": "resume.html",
 			"settings":
 			{
-				"buffer_size": 2586,
+				"buffer_size": 2686,
 				"line_ending": "Unix"
 			}
 		}
@@ -224,13 +216,13 @@
 	},
 	"file_history":
 	[
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/contact.html",
 		"/Users/spencerriner/Documents/GitHub/Techskine/css/style.css",
 		"/Users/spencerriner/Documents/GitHub/Techskine/js/script.js",
 		"/Users/spencerriner/Documents/GitHub/Techskine/index.html",
 		"/Users/spencerriner/Documents/ex1/firstProgram.java",
 		"/Users/spencerriner/Documents/guitarrant.txt",
 		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/resume.html",
-		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/contact.html",
 		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/about.html",
 		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/css/style.css",
 		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/projects.html",
@@ -288,7 +280,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -323,15 +315,15 @@
 					"file": "about.html",
 					"settings":
 					{
-						"buffer_size": 3655,
+						"buffer_size": 3755,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2464,
-								2464
+								2187,
+								2132
 							]
 						],
 						"settings":
@@ -341,7 +333,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 311.0,
+						"translation.y": 379.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -351,15 +343,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3438,
+						"buffer_size": 3538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2843,
-								2843
+								1841,
+								1841
 							]
 						],
 						"settings":
@@ -367,7 +359,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 572.0,
+						"translation.y": 323.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -377,15 +369,15 @@
 					"file": "projects.html",
 					"settings":
 					{
-						"buffer_size": 4246,
+						"buffer_size": 4346,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								263,
-								263
+								1904,
+								1904
 							]
 						],
 						"settings":
@@ -400,46 +392,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "contact.html",
-					"settings":
-					{
-						"buffer_size": 2164,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2026,
-								1988
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 232.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "resume.html",
 					"settings":
 					{
-						"buffer_size": 2586,
+						"buffer_size": 2686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2464,
-								2464
+								2187,
+								2187
 							]
 						],
 						"settings":
@@ -449,7 +413,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 290.0,
+						"translation.y": 382.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
