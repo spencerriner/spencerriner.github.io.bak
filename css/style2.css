@@ -53,6 +53,10 @@ h2 {
 h3 {
   font-size: 2.618em;
 }
+.h3 {
+  font-size: 2.618em;
+  font-family: 'Patua One', cursive;
+}
 /* Page Headers */
 .bar {
   padding-top: 2.618em;
