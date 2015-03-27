@@ -3,6 +3,12 @@ body {
   color: #2c3e50;
   font-size: 16px;
 }
+p {
+  max-width: 500px;
+}
+img {
+  padding-top: 1em;
+}
 h1,
 h2,
 h3,
@@ -31,7 +37,7 @@ a:hover {
 }
 .para {
   text-align: left;
-  max-width: 500px;
+  max-width: 300px;
 }
 .align {
   padding-left: 20px;
