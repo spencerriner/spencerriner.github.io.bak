@@ -1,0 +1,7 @@
+@media (max-width: @screen-xs) {
+    #firstname{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    #firstname{font-size: 14px;}
+}
