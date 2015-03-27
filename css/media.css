@@ -1,7 +1,15 @@
 @media (max-width: @screen-xs) {
-    #firstname{font-size: 10px;}
+    span {font-size: 10px;}
 }
 
 @media (max-width: @screen-sm) {
-    #firstname{font-size: 14px;}
+    span{font-size: 14px;}
+}
+
+@media (max-width: @screen-xs) {
+    span{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    span{font-size: 14px;}
 }
