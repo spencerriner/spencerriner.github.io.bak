@@ -1,0 +1,62 @@
+/* TESTING PURPOSES */
+
+/*
+table {
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table, th, td {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+*/
+
+/* GLOBAL */
+
+a {
+    color: black;
+    
+}
+
+ul {
+    padding-left: 22px;
+    margin: 0;
+}
+
+.leftcell {
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: text-top;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.rightcell {
+    padding-left: 10px;
+    font-family: 'PT Serif', serif;
+
+}
+
+.padbot {
+    padding-bottom: 10px;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.618em
+}
+
+.subhead {
+    font-family: 'PT Serif', serif;
+}
+
+#header {
+    width: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
