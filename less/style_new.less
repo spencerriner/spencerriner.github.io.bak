@@ -1,3 +1,4 @@
+//Colors
 @green: 	#27ae60;
 @navy: 		#2c3e50;
 @blue: 		#2980b9;
@@ -8,17 +9,18 @@
 @purple: 	#9b59b6;
 @gray: 		#7f8c8d;
 
+//Functions
 .shadow(@c1, @c2) {
 text-shadow: -1px 1px 0 @c1, -2px 2px 0 @c2;	
 };
 
-
+// Global
 
 body {
 	font-family: 'PT Sans', sans-serif;
 	color: @navy;
-	//font-size: 1.618em;
 	font-size: 16px;
+	line-height: 1.618em;
 }
 
 p {
@@ -27,30 +29,23 @@ p {
 
 img {
 	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 
 h1, h2, h3, h4 {
 	font-family: 'Arvo', serif;
 	text-transform: uppercase;
+	font-size: 1.618em;
 }
 
 h1 {
-	font-size: 1.618em;
 	color: @red;
-
-
 }
 
-h2 {
-	font-size: 1.618em;
-
-
-}
-
-h3 {
-	font-size: 1.618em;
-
+.divider {
+	height: 5px;
+	background-color: #fff;
 }
 
 a {
@@ -61,7 +56,7 @@ a:hover {
 	color: @green;
 }
 
-.title {
+.right {
 	text-align: right;
 }
 
