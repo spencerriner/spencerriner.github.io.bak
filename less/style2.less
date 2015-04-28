@@ -6,5 +6,163 @@
 @dorange: 	#d35400;
 @turq: 		#1abc9c;
 @purple: 	#9b59b6;
-@gray: 		#7f8c8d;
+@gray: 		#bdc3c7;
+@cloud: 	#ecf0f1;
+@concrete: 	#95a5a6;
+@yellow: 	#f1c40f;
+@dgray: 	#333;
+
+//Functions
+.shadow(@c1, @c2) {
+text-shadow: -2px 2px 0 @c1, -3px 3px 0 @c2;	
+};
+
+.four-way(@c1) {
+	text-shadow: -2px -2px @c1, 2px 2px @c1, -2px 2px @c1, 2px -2px @c1;
+}
+
+body {
+	padding-top: 50px;
+	font-family: Arvo;
+}
+
+
+
+#hero-row {
+	background: url(../img/39H.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	height: 350px;
+	padding-top: 50px;
+
+	.title-text {
+		font-size: 4.236em;
+		letter-spacing: 0px;
+		line-height: 1;
+	}
+
+	#title-first {
+		font-weight: bold;
+		text-transform: uppercase;
+		color: @cloud;
+	}
+
+	#title-last {
+		color: @gray;
+	}
+
+	#subtitle {
+		font-family: 'Open Sans';
+		letter-spacing: 1px;
+		font-size: 1.618em;
+		padding-top: 10px;
+	}
+
+	.subtitle-attr {
+		color: @yellow;
+	}
+}
+
+#nav-about {
+	padding: 60px 0;
+
+	#prof-pic {
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: @dgray;
+		padding: 10px;
+		margin-top: 30px;
+	}
+
+	#about-title {
+		font-size: 36px;
+		padding: 20px 0;
+		text-transform: uppercase;
+		letter-spacing: 0px;
+		.shadow(#fff, @yellow);
+		font-weight: bold;
+	}
+}
+
+#about-text {
+	p {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: @dgray;
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px 0;
+	font-size: 1.618em;
+	}
+
+}
+
+#projects {
+	background-color: @dgray;
+	color: #fff;
+	padding: 60px 0;
+	
+	img {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#project-title {
+		font-size: 36px;
+		font-weight: bold;
+		padding: 20px 0;
+		text-transform: uppercase;
+		letter-spacing: 0px;
+		.shadow(@dgray, @yellow);
+	}
+
+	
+}
+
+#nav-contact {
+	padding: 60px 0;
+
+	#contact-title {
+		font-size: 36px;
+		font-weight: bold;
+		padding: 20px 0;
+		text-transform: uppercase;
+		letter-spacing: 0px;
+		.shadow(#fff, @yellow);
+	}
+}
+
+#contact-icon {
+	padding-bottom: 300px;
+}
+
+
+
+// ICON STYLING
+
+.icon-row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+
+
+.fa {
+		background-color: @dgray;
+		color: #fff;
+		border-radius: 50%;
+		padding: 20px;
+		
+		&:hover {
+			color: @yellow;
+		}
+	
+			
+	}
 
