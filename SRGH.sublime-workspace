@@ -171,6 +171,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5324,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -204,14 +212,24 @@
 	},
 	"file_history":
 	[
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/blog/index.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/in2.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/README.md",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/blog/_layouts/default.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/blog/_layouts/page.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/blog/_sass/_layout.scss",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/blog/css/main.scss",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/blog/_includes/navbar.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/blog/_includes/header.html",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/blog/_config.yml",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/less/style2.less",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/less/style_new.less",
+		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/script/script.js",
 		"/Users/spencerriner/Documents/ASSM/hw3/hw3.asm",
 		"/Users/spencerriner/Documents/GitHub/16bit/less/colors.less",
 		"/Users/spencerriner/Documents/GitHub/16bit/index.html",
 		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/index.html",
-		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/less/style_new.less",
-		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/less/style2.less",
 		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/css/style_new.css",
-		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/in2.html",
 		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/css/style2.css",
 		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/css/media.css",
 		"/Users/spencerriner/Documents/GitHub/spencerriner.github.io/resume_html.htm",
@@ -307,8 +325,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3557,
+								3557
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

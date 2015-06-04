@@ -8,7 +8,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 350px;
+  height: 450px;
   padding-top: 50px;
 }
 #hero-row .title-text {
@@ -95,7 +95,7 @@ body {
 }
 .icon-row {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .fa {
   background-color: #333333;

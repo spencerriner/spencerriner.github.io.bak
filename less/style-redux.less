@@ -1,0 +1,160 @@
+// Colors
+@light-black: 		#333;
+@flat-d-gray: 		#7f8c8d;
+@flat-m-gray: 		#bdc3c7;
+@flat-l-gray: 		#ecf0f1;
+@flat-yellow: 		#f1c40f;
+
+// Functions
+.shadow(@c1, @c2) {
+	text-shadow: -2px 2px 0 @c1, -3px 3px 0 @c2;
+}
+
+// Styling
+
+//Universal Rules
+body {
+	padding-top: 50px;
+	font-family: 'Arvo', serif;
+}
+
+h1, h2, h3, h4 {	
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 4.236em;
+	letter-spacing: -0.5px;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 2.736em;
+	text-transform: uppercase;
+}
+
+p {
+	background-color: white;
+	max-width: 500px;
+	padding: 50px;
+}
+
+.h2-light {
+	.shadow(#fff, @flat-yellow);
+}
+
+.h2-dark {
+	color: #fff;
+	.shadow(@flat-d-gray, @flat-yellow);
+}
+
+.h2-popup {
+	color: #fff;
+	.shadow(@flat-d-gray, @flat-yellow);	
+}
+
+// Section Rules
+
+// Intro
+#nav-intro {
+	background: url(../img/39H.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	height: 450px;
+	padding-top: 50px;
+
+	#first-name {
+		text-transform: uppercase;
+		color: @flat-l-gray;
+	}
+
+	#last-name {
+		font-weight: 400;
+		color: @flat-m-gray;
+	}
+
+	.sub {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		letter-spacing: 1px;
+		font-size: 1.618em;
+		text-transform: lowercase;
+	}
+
+	.sub-attr {
+		color: @flat-yellow;
+	}
+}
+
+// About
+#nav-about {
+	padding: 50px 0;
+
+	#sr-pic {
+		width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: @light-black;
+		padding: 10px;
+		margin-top: 60px;
+		margin-bottom: 40px;
+
+		&:hover{
+			cursor: pointer;
+			cursor: hand;
+		}
+	}
+}
+
+// About Icons
+#about-icon {
+	padding: 25px 0;
+	margin-bottom: 70px;
+}
+
+// Projects
+#nav-projects {
+	background-color: @light-black;
+	padding: 50px 0;
+
+	img {
+		margin: 50px auto 50px;
+	}
+}
+
+// Contact
+#nav-contact {
+	padding: 50px 0;
+}
+
+// Contact Icons
+#contact-icon {
+	padding: 25px 0 400px;
+}
+
+// Icon Styling Rules
+
+.icon-row {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.fa {
+	background-color: @light-black;
+	color: #fff;
+	border-radius: 50%;
+	padding: 20px;
+
+	&:hover {
+		color: @flat-yellow;
+		cursor: pointer;
+		cursor: hand;
+	}
+}
+
+#mobile-icon {
+		padding: 20px 30px;
+	}
