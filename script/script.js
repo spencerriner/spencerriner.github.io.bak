@@ -27,9 +27,11 @@ $( document ).ready(function() {
   		scrolllock: true 
 	});
 
-	$('#sr-popup').popup({
-		transition: 'all 0.3s',
-  		scrolllock: true 
-	});
+	$('#sr-popup').popup(
+	//{
+	//	transition: 'all 0.3s',
+  	//	scrolllock: true 
+	//}
+	);
  
 });
